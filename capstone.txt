@@ -24,3 +24,5 @@ Eureka dependency
             <artifactId>javassist</artifactId>
             <version>3.25.0-GA</version>
         </dependency>
+      
+     List<Long> friends=template.getForObject("http://FRIENDFAMILYMS"+"/customers/"+phoneNo+"/friends", List.class);
