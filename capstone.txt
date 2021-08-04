@@ -1,0 +1,26 @@
+if(phoneNo==9009009001L) {
+            throw new RuntimeException();
+        }
+
+public List<CallDetailsDTO> getCustomerCallDetailsFallback(Long phoneNo) {
+        List<CallDetailsDTO> listCall=new ArrayList<CallDetailsDTO>();
+        return listCall;
+    }
+
+
+public List<CallDetailsDTO> getCustomerCallDetailsFallback(Long phoneNo) {
+        List<CallDetailsDTO> listCall=new ArrayList<CallDetailsDTO>();
+        return listCall;
+    }
+Eureka dependency
+<dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.25.0-GA</version>
+        </dependency>
