@@ -26,3 +26,6 @@ Eureka dependency
         </dependency>
       
      List<Long> friends=template.getForObject("http://FRIENDFAMILYMS"+"/customers/"+phoneNo+"/friends", List.class);
+     
+     
+     To remove from MS
